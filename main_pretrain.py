@@ -20,19 +20,19 @@ import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 
 import timm
-assert timm.__version__ == "0.3.2"  # version check
+# assert timm.__version__ == "0.3.2"  # version check
 import timm.optim.optim_factory as optim_factory
 
 from engine_pretrain import train_one_epoch
 import models.fcmae as fcmae
 
-import utils
+from utils import load_state_dict
 from utils import NativeScalerWithGradNormCount as NativeScaler
 from utils import str2bool
-
+import utils
 def get_args_parser():
     parser = argparse.ArgumentParser('FCMAE pre-training', add_help=False)
-    parser.add_argument('--batch_size', default=64, type=int,
+    parser.add_argument('--batch_size', default=32, type=int,
                         help='Per GPU batch size')
     parser.add_argument('--epochs', default=800, type=int)
     parser.add_argument('--warmup_epochs', type=int, default=40, metavar='N',
@@ -43,7 +43,7 @@ def get_args_parser():
     # Model parameters
     parser.add_argument('--model', default='convnextv2_base', type=str, metavar='MODEL',
                         help='Name of model to train')
-    parser.add_argument('--input_size', default=224, type=int,
+    parser.add_argument('--input_size', default=512, type=int,
                         help='image input size')
     parser.add_argument('--mask_ratio', default=0.6, type=float,
                         help='Masking ratio (percentage of removed patches).')
@@ -64,7 +64,7 @@ def get_args_parser():
                         help='lower lr bound for cyclic schedulers that hit 0')
     
     # Dataset parameters
-    parser.add_argument('--data_path', default='/datasets01/imagenet_full_size/061417/', type=str,
+    parser.add_argument('--data_path', default='/mnt/hdd/data/panoramic/ImageFloder', type=str,
                         help='dataset path')
     parser.add_argument('--output_dir', default='',
                         help='path where to save, empty for no saving')
@@ -118,7 +118,7 @@ def main(args):
             transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
-    dataset_train = datasets.ImageFolder(os.path.join(args.data_path, 'train'), transform=transform_train)
+    dataset_train = datasets.ImageFolder(args.data_path, transform=transform_train)
     print(dataset_train)
 
     num_tasks = utils.get_world_size()
@@ -151,8 +151,9 @@ def main(args):
         decoder_embed_dim=args.decoder_embed_dim,
         norm_pix_loss=args.norm_pix_loss
     )
+    ckpts = torch.load('/mnt/hdd/code/ConvNeXt-V2/convnextv2_base_1k_224_fcmae.pt')
     model.to(device)
-
+    model.encoder.load_state_dict(ckpts['model'],True)
     model_without_ddp = model
     n_parameters = sum(p.numel() for p in model.parameters() if p.requires_grad)
 

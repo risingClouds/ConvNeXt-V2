@@ -1,0 +1,1279 @@
+[
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "optim",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "trunc_normal_",
+        "importPath": "timm.models.layers",
+        "description": "timm.models.layers",
+        "isExtraImport": true,
+        "detail": "timm.models.layers",
+        "documentation": {}
+    },
+    {
+        "label": "DropPath",
+        "importPath": "timm.models.layers",
+        "description": "timm.models.layers",
+        "isExtraImport": true,
+        "detail": "timm.models.layers",
+        "documentation": {}
+    },
+    {
+        "label": "trunc_normal_",
+        "importPath": "timm.models.layers",
+        "description": "timm.models.layers",
+        "isExtraImport": true,
+        "detail": "timm.models.layers",
+        "documentation": {}
+    },
+    {
+        "label": "DropPath",
+        "importPath": "timm.models.layers",
+        "description": "timm.models.layers",
+        "isExtraImport": true,
+        "detail": "timm.models.layers",
+        "documentation": {}
+    },
+    {
+        "label": "trunc_normal_",
+        "importPath": "timm.models.layers",
+        "description": "timm.models.layers",
+        "isExtraImport": true,
+        "detail": "timm.models.layers",
+        "documentation": {}
+    },
+    {
+        "label": "trunc_normal_",
+        "importPath": "timm.models.layers",
+        "description": "timm.models.layers",
+        "isExtraImport": true,
+        "detail": "timm.models.layers",
+        "documentation": {}
+    },
+    {
+        "label": "numpy.random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy.random",
+        "description": "numpy.random",
+        "detail": "numpy.random",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datasets",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "timm.data.constants",
+        "description": "timm.data.constants",
+        "isExtraImport": true,
+        "detail": "timm.data.constants",
+        "documentation": {}
+    },
+    {
+        "label": "create_transform",
+        "importPath": "timm.data",
+        "description": "timm.data",
+        "isExtraImport": true,
+        "detail": "timm.data",
+        "documentation": {}
+    },
+    {
+        "label": "Mixup",
+        "importPath": "timm.data",
+        "description": "timm.data",
+        "isExtraImport": true,
+        "detail": "timm.data",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "importPath": "timm.utils",
+        "description": "timm.utils",
+        "isExtraImport": true,
+        "detail": "timm.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ModelEma",
+        "importPath": "timm.utils",
+        "description": "timm.utils",
+        "isExtraImport": true,
+        "detail": "timm.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ModelEma",
+        "importPath": "timm.utils",
+        "description": "timm.utils",
+        "isExtraImport": true,
+        "detail": "timm.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_state_dict",
+        "importPath": "timm.utils",
+        "description": "timm.utils",
+        "isExtraImport": true,
+        "detail": "timm.utils",
+        "documentation": {}
+    },
+    {
+        "label": "utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "utils",
+        "description": "utils",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "adjust_learning_rate",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "NativeScalerWithGradNormCount",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "str2bool",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "remap_checkpoint_keys",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_state_dict",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "NativeScalerWithGradNormCount",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "str2bool",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "torch.backends.cudnn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.backends.cudnn",
+        "description": "torch.backends.cudnn",
+        "detail": "torch.backends.cudnn",
+        "documentation": {}
+    },
+    {
+        "label": "Mixup",
+        "importPath": "timm.data.mixup",
+        "description": "timm.data.mixup",
+        "isExtraImport": true,
+        "detail": "timm.data.mixup",
+        "documentation": {}
+    },
+    {
+        "label": "LabelSmoothingCrossEntropy",
+        "importPath": "timm.loss",
+        "description": "timm.loss",
+        "isExtraImport": true,
+        "detail": "timm.loss",
+        "documentation": {}
+    },
+    {
+        "label": "SoftTargetCrossEntropy",
+        "importPath": "timm.loss",
+        "description": "timm.loss",
+        "isExtraImport": true,
+        "detail": "timm.loss",
+        "documentation": {}
+    },
+    {
+        "label": "create_optimizer",
+        "importPath": "optim_factory",
+        "description": "optim_factory",
+        "isExtraImport": true,
+        "detail": "optim_factory",
+        "documentation": {}
+    },
+    {
+        "label": "LayerDecayValueAssigner",
+        "importPath": "optim_factory",
+        "description": "optim_factory",
+        "isExtraImport": true,
+        "detail": "optim_factory",
+        "documentation": {}
+    },
+    {
+        "label": "build_dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "train_one_epoch",
+        "importPath": "engine_finetune",
+        "description": "engine_finetune",
+        "isExtraImport": true,
+        "detail": "engine_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate",
+        "importPath": "engine_finetune",
+        "description": "engine_finetune",
+        "isExtraImport": true,
+        "detail": "engine_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "models.convnextv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.datasets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.datasets",
+        "description": "torchvision.datasets",
+        "detail": "torchvision.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "timm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "timm",
+        "description": "timm",
+        "detail": "timm",
+        "documentation": {}
+    },
+    {
+        "label": "timm.optim.optim_factory",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "timm.optim.optim_factory",
+        "description": "timm.optim.optim_factory",
+        "detail": "timm.optim.optim_factory",
+        "documentation": {}
+    },
+    {
+        "label": "train_one_epoch",
+        "importPath": "engine_pretrain",
+        "description": "engine_pretrain",
+        "isExtraImport": true,
+        "detail": "engine_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "models.fcmae",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "Adafactor",
+        "importPath": "timm.optim.adafactor",
+        "description": "timm.optim.adafactor",
+        "isExtraImport": true,
+        "detail": "timm.optim.adafactor",
+        "documentation": {}
+    },
+    {
+        "label": "Adahessian",
+        "importPath": "timm.optim.adahessian",
+        "description": "timm.optim.adahessian",
+        "isExtraImport": true,
+        "detail": "timm.optim.adahessian",
+        "documentation": {}
+    },
+    {
+        "label": "AdamP",
+        "importPath": "timm.optim.adamp",
+        "description": "timm.optim.adamp",
+        "isExtraImport": true,
+        "detail": "timm.optim.adamp",
+        "documentation": {}
+    },
+    {
+        "label": "Lookahead",
+        "importPath": "timm.optim.lookahead",
+        "description": "timm.optim.lookahead",
+        "isExtraImport": true,
+        "detail": "timm.optim.lookahead",
+        "documentation": {}
+    },
+    {
+        "label": "Nadam",
+        "importPath": "timm.optim.nadam",
+        "description": "timm.optim.nadam",
+        "isExtraImport": true,
+        "detail": "timm.optim.nadam",
+        "documentation": {}
+    },
+    {
+        "label": "NovoGrad",
+        "importPath": "timm.optim.novograd",
+        "description": "timm.optim.novograd",
+        "isExtraImport": true,
+        "detail": "timm.optim.novograd",
+        "documentation": {}
+    },
+    {
+        "label": "NvNovoGrad",
+        "importPath": "timm.optim.nvnovograd",
+        "description": "timm.optim.nvnovograd",
+        "isExtraImport": true,
+        "detail": "timm.optim.nvnovograd",
+        "documentation": {}
+    },
+    {
+        "label": "RAdam",
+        "importPath": "timm.optim.radam",
+        "description": "timm.optim.radam",
+        "isExtraImport": true,
+        "detail": "timm.optim.radam",
+        "documentation": {}
+    },
+    {
+        "label": "RMSpropTF",
+        "importPath": "timm.optim.rmsprop_tf",
+        "description": "timm.optim.rmsprop_tf",
+        "isExtraImport": true,
+        "detail": "timm.optim.rmsprop_tf",
+        "documentation": {}
+    },
+    {
+        "label": "SGDP",
+        "importPath": "timm.optim.sgdp",
+        "description": "timm.optim.sgdp",
+        "isExtraImport": true,
+        "detail": "timm.optim.sgdp",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "main_finetune",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "main_finetune",
+        "description": "main_finetune",
+        "detail": "main_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "submitit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "submitit",
+        "description": "submitit",
+        "detail": "submitit",
+        "documentation": {}
+    },
+    {
+        "label": "main_pretrain",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "main_pretrain",
+        "description": "main_pretrain",
+        "detail": "main_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "torch.distributed",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.distributed",
+        "description": "torch.distributed",
+        "detail": "torch.distributed",
+        "documentation": {}
+    },
+    {
+        "label": "SummaryWriter",
+        "importPath": "tensorboardX",
+        "description": "tensorboardX",
+        "isExtraImport": true,
+        "detail": "tensorboardX",
+        "documentation": {}
+    },
+    {
+        "label": "Block",
+        "kind": 6,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "class Block(nn.Module):\n    \"\"\" ConvNeXtV2 Block.\n    Args:\n        dim (int): Number of input channels.\n        drop_path (float): Stochastic depth rate. Default: 0.0\n    \"\"\"\n    def __init__(self, dim, drop_path=0.):\n        super().__init__()\n        self.dwconv = nn.Conv2d(dim, dim, kernel_size=7, padding=3, groups=dim) # depthwise conv\n        self.norm = LayerNorm(dim, eps=1e-6)",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "ConvNeXtV2",
+        "kind": 6,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "class ConvNeXtV2(nn.Module):\n    \"\"\" ConvNeXt V2\n    Args:\n        in_chans (int): Number of input image channels. Default: 3\n        num_classes (int): Number of classes for classification head. Default: 1000\n        depths (tuple(int)): Number of blocks at each stage. Default: [3, 3, 9, 3]\n        dims (int): Feature dimension at each stage. Default: [96, 192, 384, 768]\n        drop_path_rate (float): Stochastic depth rate. Default: 0.\n        head_init_scale (float): Init scaling value for classifier weights and biases. Default: 1.\n    \"\"\"",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_atto",
+        "kind": 2,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "def convnextv2_atto(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 6, 2], dims=[40, 80, 160, 320], **kwargs)\n    return model\ndef convnextv2_femto(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 6, 2], dims=[48, 96, 192, 384], **kwargs)\n    return model\ndef convnext_pico(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 6, 2], dims=[64, 128, 256, 512], **kwargs)\n    return model\ndef convnextv2_nano(**kwargs):",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_femto",
+        "kind": 2,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "def convnextv2_femto(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 6, 2], dims=[48, 96, 192, 384], **kwargs)\n    return model\ndef convnext_pico(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 6, 2], dims=[64, 128, 256, 512], **kwargs)\n    return model\ndef convnextv2_nano(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 8, 2], dims=[80, 160, 320, 640], **kwargs)\n    return model\ndef convnextv2_tiny(**kwargs):",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "convnext_pico",
+        "kind": 2,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "def convnext_pico(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 6, 2], dims=[64, 128, 256, 512], **kwargs)\n    return model\ndef convnextv2_nano(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 8, 2], dims=[80, 160, 320, 640], **kwargs)\n    return model\ndef convnextv2_tiny(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 9, 3], dims=[96, 192, 384, 768], **kwargs)\n    return model\ndef convnextv2_base(**kwargs):",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_nano",
+        "kind": 2,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "def convnextv2_nano(**kwargs):\n    model = ConvNeXtV2(depths=[2, 2, 8, 2], dims=[80, 160, 320, 640], **kwargs)\n    return model\ndef convnextv2_tiny(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 9, 3], dims=[96, 192, 384, 768], **kwargs)\n    return model\ndef convnextv2_base(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[128, 256, 512, 1024], **kwargs)\n    return model\ndef convnextv2_large(**kwargs):",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_tiny",
+        "kind": 2,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "def convnextv2_tiny(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 9, 3], dims=[96, 192, 384, 768], **kwargs)\n    return model\ndef convnextv2_base(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[128, 256, 512, 1024], **kwargs)\n    return model\ndef convnextv2_large(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[192, 384, 768, 1536], **kwargs)\n    return model\ndef convnextv2_huge(**kwargs):",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_base",
+        "kind": 2,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "def convnextv2_base(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[128, 256, 512, 1024], **kwargs)\n    return model\ndef convnextv2_large(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[192, 384, 768, 1536], **kwargs)\n    return model\ndef convnextv2_huge(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[352, 704, 1408, 2816], **kwargs)\n    return model",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_large",
+        "kind": 2,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "def convnextv2_large(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[192, 384, 768, 1536], **kwargs)\n    return model\ndef convnextv2_huge(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[352, 704, 1408, 2816], **kwargs)\n    return model",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_huge",
+        "kind": 2,
+        "importPath": "models.convnextv2",
+        "description": "models.convnextv2",
+        "peekOfCode": "def convnextv2_huge(**kwargs):\n    model = ConvNeXtV2(depths=[3, 3, 27, 3], dims=[352, 704, 1408, 2816], **kwargs)\n    return model",
+        "detail": "models.convnextv2",
+        "documentation": {}
+    },
+    {
+        "label": "Block",
+        "kind": 6,
+        "importPath": "models.convnextv2_sparse",
+        "description": "models.convnextv2_sparse",
+        "peekOfCode": "class Block(nn.Module):\n    \"\"\" Sparse ConvNeXtV2 Block. \n    Args:\n        dim (int): Number of input channels.\n        drop_path (float): Stochastic depth rate. Default: 0.0\n        layer_scale_init_value (float): Init value for Layer Scale. Default: 1e-6.\n    \"\"\"\n    def __init__(self, dim, drop_path=0., D=3):\n        super().__init__()\n        self.dwconv = nn.Conv2d(dim, dim, kernel_size=7, padding=3, groups=dim) # depthwise conv",
+        "detail": "models.convnextv2_sparse",
+        "documentation": {}
+    },
+    {
+        "label": "SparseConvNeXtV2",
+        "kind": 6,
+        "importPath": "models.convnextv2_sparse",
+        "description": "models.convnextv2_sparse",
+        "peekOfCode": "class SparseConvNeXtV2(nn.Module):\n    \"\"\" Sparse ConvNeXtV2.\n    Args:\n        in_chans (int): Number of input image channels. Default: 3\n        num_classes (int): Number of classes for classification head. Default: 1000\n        depths (tuple(int)): Number of blocks at each stage. Default: [3, 3, 9, 3]\n        dims (int): Feature dimension at each stage. Default: [96, 192, 384, 768]\n        drop_path_rate (float): Stochastic depth rate. Default: 0.\n        head_init_scale (float): Init scaling value for classifier weights and biases. Default: 1.\n    \"\"\"",
+        "detail": "models.convnextv2_sparse",
+        "documentation": {}
+    },
+    {
+        "label": "FCMAE",
+        "kind": 6,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "class FCMAE(nn.Module):\n    \"\"\" Fully Convolutional Masked Autoencoder with ConvNeXtV2 backbone\n    \"\"\"\n    def __init__(\n                self,\n                img_size=224,\n                in_chans=3,\n                depths=[3, 3, 9, 3],\n                dims=[96, 192, 384, 768],\n                decoder_depth=1,",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_atto",
+        "kind": 2,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "def convnextv2_atto(**kwargs):\n    model = FCMAE(\n        depths=[2, 2, 6, 2], dims=[40, 80, 160, 320], **kwargs)\n    return model\ndef convnextv2_femto(**kwargs):\n    model = FCMAE(\n        depths=[2, 2, 6, 2], dims=[48, 96, 192, 384], **kwargs)\n    return model\ndef convnextv2_pico(**kwargs):\n    model = FCMAE(",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_femto",
+        "kind": 2,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "def convnextv2_femto(**kwargs):\n    model = FCMAE(\n        depths=[2, 2, 6, 2], dims=[48, 96, 192, 384], **kwargs)\n    return model\ndef convnextv2_pico(**kwargs):\n    model = FCMAE(\n        depths=[2, 2, 6, 2], dims=[64, 128, 256, 512], **kwargs)\n    return model\ndef convnextv2_nano(**kwargs):\n    model = FCMAE(",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_pico",
+        "kind": 2,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "def convnextv2_pico(**kwargs):\n    model = FCMAE(\n        depths=[2, 2, 6, 2], dims=[64, 128, 256, 512], **kwargs)\n    return model\ndef convnextv2_nano(**kwargs):\n    model = FCMAE(\n        depths=[2, 2, 8, 2], dims=[80, 160, 320, 640], **kwargs)\n    return model\ndef convnextv2_tiny(**kwargs):\n    model = FCMAE(",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_nano",
+        "kind": 2,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "def convnextv2_nano(**kwargs):\n    model = FCMAE(\n        depths=[2, 2, 8, 2], dims=[80, 160, 320, 640], **kwargs)\n    return model\ndef convnextv2_tiny(**kwargs):\n    model = FCMAE(\n        depths=[3, 3, 9, 3], dims=[96, 192, 384, 768], **kwargs)\n    return model\ndef convnextv2_base(**kwargs):\n    model = FCMAE(",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_tiny",
+        "kind": 2,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "def convnextv2_tiny(**kwargs):\n    model = FCMAE(\n        depths=[3, 3, 9, 3], dims=[96, 192, 384, 768], **kwargs)\n    return model\ndef convnextv2_base(**kwargs):\n    model = FCMAE(\n        depths=[3, 3, 27, 3], dims=[128, 256, 512, 1024], **kwargs)\n    return model\ndef convnextv2_large(**kwargs):\n    model = FCMAE(",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_base",
+        "kind": 2,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "def convnextv2_base(**kwargs):\n    model = FCMAE(\n        depths=[3, 3, 27, 3], dims=[128, 256, 512, 1024], **kwargs)\n    return model\ndef convnextv2_large(**kwargs):\n    model = FCMAE(\n        depths=[3, 3, 27, 3], dims=[192, 384, 768, 1536], **kwargs)\n    return model\ndef convnextv2_huge(**kwargs):\n    model = FCMAE(",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_large",
+        "kind": 2,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "def convnextv2_large(**kwargs):\n    model = FCMAE(\n        depths=[3, 3, 27, 3], dims=[192, 384, 768, 1536], **kwargs)\n    return model\ndef convnextv2_huge(**kwargs):\n    model = FCMAE(\n        depths=[3, 3, 27, 3], dims=[352, 704, 1408, 2816], **kwargs)\n    return model",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "convnextv2_huge",
+        "kind": 2,
+        "importPath": "models.fcmae",
+        "description": "models.fcmae",
+        "peekOfCode": "def convnextv2_huge(**kwargs):\n    model = FCMAE(\n        depths=[3, 3, 27, 3], dims=[352, 704, 1408, 2816], **kwargs)\n    return model",
+        "detail": "models.fcmae",
+        "documentation": {}
+    },
+    {
+        "label": "LayerNorm",
+        "kind": 6,
+        "importPath": "models.utils",
+        "description": "models.utils",
+        "peekOfCode": "class LayerNorm(nn.Module):\n    \"\"\" LayerNorm that supports two data formats: channels_last (default) or channels_first. \n    The ordering of the dimensions in the inputs. channels_last corresponds to inputs with \n    shape (batch_size, height, width, channels) while channels_first corresponds to inputs \n    with shape (batch_size, channels, height, width).\n    \"\"\"\n    def __init__(self, normalized_shape, eps=1e-6, data_format=\"channels_last\"):\n        super().__init__()\n        self.weight = nn.Parameter(torch.ones(normalized_shape))\n        self.bias = nn.Parameter(torch.zeros(normalized_shape))",
+        "detail": "models.utils",
+        "documentation": {}
+    },
+    {
+        "label": "GRN",
+        "kind": 6,
+        "importPath": "models.utils",
+        "description": "models.utils",
+        "peekOfCode": "class GRN(nn.Module):\n    \"\"\" GRN (Global Response Normalization) layer\n    \"\"\"\n    def __init__(self, dim):\n        super().__init__()\n        self.gamma = nn.Parameter(torch.zeros(1, dim))\n        self.beta = nn.Parameter(torch.zeros(1, dim))\n    def forward(self, x,mask=None):\n        if mask is not None:\n            x = x * (1.-mask)",
+        "detail": "models.utils",
+        "documentation": {}
+    },
+    {
+        "label": "build_dataset",
+        "kind": 2,
+        "importPath": "datasets",
+        "description": "datasets",
+        "peekOfCode": "def build_dataset(is_train, args):\n    transform = build_transform(is_train, args)\n    print(\"Transform = \")\n    if isinstance(transform, tuple):\n        for trans in transform:\n            print(\" - - - - - - - - - - \")\n            for t in trans.transforms:\n                print(t)\n    else:\n        for t in transform.transforms:",
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "build_transform",
+        "kind": 2,
+        "importPath": "datasets",
+        "description": "datasets",
+        "peekOfCode": "def build_transform(is_train, args):\n    resize_im = args.input_size > 32\n    imagenet_default_mean_and_std = args.imagenet_default_mean_and_std\n    mean = IMAGENET_INCEPTION_MEAN if not imagenet_default_mean_and_std else IMAGENET_DEFAULT_MEAN\n    std = IMAGENET_INCEPTION_STD if not imagenet_default_mean_and_std else IMAGENET_DEFAULT_STD\n    if is_train:\n        # this should always dispatch to transforms_imagenet_train\n        transform = create_transform(\n            input_size=args.input_size,\n            is_training=True,",
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "train_one_epoch",
+        "kind": 2,
+        "importPath": "engine_finetune",
+        "description": "engine_finetune",
+        "peekOfCode": "def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,\n                    data_loader: Iterable, optimizer: torch.optim.Optimizer,\n                    device: torch.device, epoch: int, loss_scaler, max_norm: float = 0,\n                    model_ema: Optional[ModelEma] = None, mixup_fn: Optional[Mixup] = None, \n                    log_writer=None, args=None):\n    model.train(True)\n    metric_logger = utils.MetricLogger(delimiter=\"  \")\n    metric_logger.add_meter('lr', utils.SmoothedValue(window_size=1, fmt='{value:.6f}'))\n    header = 'Epoch: [{}]'.format(epoch)\n    print_freq = 20",
+        "detail": "engine_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate",
+        "kind": 2,
+        "importPath": "engine_finetune",
+        "description": "engine_finetune",
+        "peekOfCode": "def evaluate(data_loader, model, device, use_amp=False):\n    criterion = torch.nn.CrossEntropyLoss()\n    metric_logger = utils.MetricLogger(delimiter=\"  \")\n    header = 'Test:'\n    # switch to evaluation mode\n    model.eval()\n    for batch in metric_logger.log_every(data_loader, 10, header):\n        images = batch[0]\n        target = batch[-1]\n        images = images.to(device, non_blocking=True)",
+        "detail": "engine_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "train_one_epoch",
+        "kind": 2,
+        "importPath": "engine_pretrain",
+        "description": "engine_pretrain",
+        "peekOfCode": "def train_one_epoch(model: torch.nn.Module,\n                    data_loader: Iterable, optimizer: torch.optim.Optimizer,\n                    device: torch.device, epoch: int, loss_scaler,\n                    log_writer=None,\n                    args=None):\n    model.train(True)\n    metric_logger = utils.MetricLogger(delimiter=\"  \")\n    metric_logger.add_meter('lr', utils.SmoothedValue(window_size=1, fmt='{value:.6f}'))\n    header = 'Epoch: [{}]'.format(epoch)\n    print_freq = 20",
+        "detail": "engine_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "get_args_parser",
+        "kind": 2,
+        "importPath": "main_finetune",
+        "description": "main_finetune",
+        "peekOfCode": "def get_args_parser():\n    parser = argparse.ArgumentParser('FCMAE fine-tuning', add_help=False)\n    parser.add_argument('--batch_size', default=64, type=int,\n                        help='Per GPU batch size')\n    parser.add_argument('--epochs', default=100, type=int)\n    parser.add_argument('--update_freq', default=1, type=int,\n                        help='gradient accumulation steps')\n    # Model parameters\n    parser.add_argument('--model', default='convnextv2_base', type=str, metavar='MODEL',\n                        help='Name of model to train')",
+        "detail": "main_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main_finetune",
+        "description": "main_finetune",
+        "peekOfCode": "def main(args):\n    utils.init_distributed_mode(args)\n    print(args)\n    device = torch.device(args.device)\n    # fix the seed for reproducibility\n    seed = args.seed + utils.get_rank()\n    torch.manual_seed(seed)\n    np.random.seed(seed)\n    cudnn.benchmark = True\n    dataset_train, args.nb_classes = build_dataset(is_train=True, args=args)",
+        "detail": "main_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "get_args_parser",
+        "kind": 2,
+        "importPath": "main_pretrain",
+        "description": "main_pretrain",
+        "peekOfCode": "def get_args_parser():\n    parser = argparse.ArgumentParser('FCMAE pre-training', add_help=False)\n    parser.add_argument('--batch_size', default=32, type=int,\n                        help='Per GPU batch size')\n    parser.add_argument('--epochs', default=800, type=int)\n    parser.add_argument('--warmup_epochs', type=int, default=40, metavar='N',\n                        help='epochs to warmup LR')\n    parser.add_argument('--update_freq', default=1, type=int,\n                        help='gradient accumulation step')\n    # Model parameters",
+        "detail": "main_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main_pretrain",
+        "description": "main_pretrain",
+        "peekOfCode": "def main(args):\n    utils.init_distributed_mode(args)\n    print(args)\n    device = torch.device(args.device)\n    # fix the seed for reproducibility\n    seed = args.seed + utils.get_rank()\n    torch.manual_seed(seed)\n    np.random.seed(seed)\n    cudnn.benchmark = True\n    # simple augmentation",
+        "detail": "main_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "LayerDecayValueAssigner",
+        "kind": 6,
+        "importPath": "optim_factory",
+        "description": "optim_factory",
+        "peekOfCode": "class LayerDecayValueAssigner(object):\n    def __init__(self, values, depths=[3,3,27,3], layer_decay_type='single'):\n        self.values = values\n        self.depths = depths\n        self.layer_decay_type = layer_decay_type\n    def get_scale(self, layer_id):\n        return self.values[layer_id]\n    def get_layer_id(self, var_name):\n        if self.layer_decay_type == 'single':\n            return get_num_layer_for_convnext_single(var_name, self.depths)",
+        "detail": "optim_factory",
+        "documentation": {}
+    },
+    {
+        "label": "get_num_layer_for_convnext_single",
+        "kind": 2,
+        "importPath": "optim_factory",
+        "description": "optim_factory",
+        "peekOfCode": "def get_num_layer_for_convnext_single(var_name, depths):\n    \"\"\"\n    Each layer is assigned distinctive layer ids\n    \"\"\"\n    if var_name.startswith(\"downsample_layers\"):\n        stage_id = int(var_name.split('.')[1])\n        layer_id = sum(depths[:stage_id]) + 1\n        return layer_id\n    elif var_name.startswith(\"stages\"):\n        stage_id = int(var_name.split('.')[1])",
+        "detail": "optim_factory",
+        "documentation": {}
+    },
+    {
+        "label": "get_num_layer_for_convnext",
+        "kind": 2,
+        "importPath": "optim_factory",
+        "description": "optim_factory",
+        "peekOfCode": "def get_num_layer_for_convnext(var_name):\n    \"\"\"\n    Divide [3, 3, 27, 3] layers into 12 groups; each group is three \n    consecutive blocks, including possible neighboring downsample layers;\n    adapted from https://github.com/microsoft/unilm/blob/master/beit/optim_factory.py\n    \"\"\"\n    num_max_layer = 12\n    if var_name.startswith(\"downsample_layers\"):\n        stage_id = int(var_name.split('.')[1])\n        if stage_id == 0:",
+        "detail": "optim_factory",
+        "documentation": {}
+    },
+    {
+        "label": "get_parameter_groups",
+        "kind": 2,
+        "importPath": "optim_factory",
+        "description": "optim_factory",
+        "peekOfCode": "def get_parameter_groups(model, weight_decay=1e-5, skip_list=(), get_num_layer=None, get_layer_scale=None):\n    parameter_group_names = {}\n    parameter_group_vars = {}\n    for name, param in model.named_parameters():\n        if not param.requires_grad:\n            continue  # frozen weights\n        if len(param.shape) == 1 or name.endswith(\".bias\") or name in skip_list or \\\n            name.endswith(\".gamma\") or name.endswith(\".beta\"):\n            group_name = \"no_decay\"\n            this_weight_decay = 0.",
+        "detail": "optim_factory",
+        "documentation": {}
+    },
+    {
+        "label": "create_optimizer",
+        "kind": 2,
+        "importPath": "optim_factory",
+        "description": "optim_factory",
+        "peekOfCode": "def create_optimizer(args, model, get_num_layer=None, get_layer_scale=None, filter_bias_and_bn=True, skip_list=None):\n    opt_lower = args.opt.lower()\n    weight_decay = args.weight_decay\n    # if weight_decay and filter_bias_and_bn:\n    if filter_bias_and_bn:\n        skip = {}\n        if skip_list is not None:\n            skip = skip_list\n        elif hasattr(model, 'no_weight_decay'):\n            skip = model.no_weight_decay()",
+        "detail": "optim_factory",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "kind": 6,
+        "importPath": "submitit_finetune",
+        "description": "submitit_finetune",
+        "peekOfCode": "class Trainer(object):\n    def __init__(self, args):\n        self.args = args\n    def __call__(self):\n        import main_finetune as trainer\n        self._setup_gpu_args()\n        trainer.main(self.args)\n    def checkpoint(self):\n        import os\n        import submitit",
+        "detail": "submitit_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "submitit_finetune",
+        "description": "submitit_finetune",
+        "peekOfCode": "def parse_args():\n    trainer_parser = trainer.get_args_parser()\n    parser = argparse.ArgumentParser(\"Submitit for finetune\", parents=[trainer_parser])\n    parser.add_argument(\"--ngpus\", default=8, type=int, help=\"Number of gpus to request on each node\")\n    parser.add_argument(\"--nodes\", default=2, type=int, help=\"Number of nodes to request\")\n    parser.add_argument(\"--timeout\", default=4320, type=int, help=\"Duration of the job\")\n    parser.add_argument(\"--job_dir\", default=\"\", type=str, help=\"Job dir. Leave empty for automatic.\")\n    parser.add_argument(\"--partition\", default=\"learnlab\", type=str, help=\"Partition where to submit\")\n    parser.add_argument(\"--use_volta32\", action='store_true', help=\"Request 32G V100 GPUs\")\n    parser.add_argument('--comment', default=\"\", type=str, help=\"Comment to pass to scheduler\")",
+        "detail": "submitit_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "get_shared_folder",
+        "kind": 2,
+        "importPath": "submitit_finetune",
+        "description": "submitit_finetune",
+        "peekOfCode": "def get_shared_folder() -> Path:\n    user = os.getenv(\"USER\")\n    if Path(\"/checkpoint/\").is_dir():\n        p = Path(f\"/checkpoint/{user}/experiments\")\n        p.mkdir(exist_ok=True)\n        return p\n    raise RuntimeError(\"No shared folder available\")\ndef get_init_file():\n    # Init file must not exist, but it's parent dir must exist.\n    os.makedirs(str(get_shared_folder()), exist_ok=True)",
+        "detail": "submitit_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "get_init_file",
+        "kind": 2,
+        "importPath": "submitit_finetune",
+        "description": "submitit_finetune",
+        "peekOfCode": "def get_init_file():\n    # Init file must not exist, but it's parent dir must exist.\n    os.makedirs(str(get_shared_folder()), exist_ok=True)\n    init_file = get_shared_folder() / f\"{uuid.uuid4().hex}_init\"\n    if init_file.exists():\n        os.remove(str(init_file))\n    return init_file\nclass Trainer(object):\n    def __init__(self, args):\n        self.args = args",
+        "detail": "submitit_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "submitit_finetune",
+        "description": "submitit_finetune",
+        "peekOfCode": "def main():\n    args = parse_args()\n    if args.job_dir == \"\":\n        args.job_dir = get_shared_folder() / \"%j\"\n    # Note that the folder will depend on the job_id, to easily track experiments\n    executor = submitit.AutoExecutor(folder=args.job_dir, slurm_max_num_timeout=30)\n    num_gpus_per_node = args.ngpus\n    nodes = args.nodes\n    timeout_min = args.timeout\n    partition = args.partition",
+        "detail": "submitit_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "kind": 6,
+        "importPath": "submitit_pretrain",
+        "description": "submitit_pretrain",
+        "peekOfCode": "class Trainer(object):\n    def __init__(self, args):\n        self.args = args\n    def __call__(self):\n        import main_pretrain as trainer\n        self._setup_gpu_args()\n        trainer.main(self.args)\n    def checkpoint(self):\n        import os\n        import submitit",
+        "detail": "submitit_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "submitit_pretrain",
+        "description": "submitit_pretrain",
+        "peekOfCode": "def parse_args():\n    trainer_parser = trainer.get_args_parser()\n    parser = argparse.ArgumentParser(\"Submitit for pretrain\", parents=[trainer_parser])\n    parser.add_argument(\"--ngpus\", default=8, type=int, help=\"Number of gpus to request on each node\")\n    parser.add_argument(\"--nodes\", default=2, type=int, help=\"Number of nodes to request\")\n    parser.add_argument(\"--timeout\", default=4320, type=int, help=\"Duration of the job\")\n    parser.add_argument(\"--job_dir\", default=\"\", type=str, help=\"Job dir. Leave empty for automatic.\")\n    parser.add_argument(\"--partition\", default=\"learnlab\", type=str, help=\"Partition where to submit\")\n    parser.add_argument(\"--use_volta32\", action='store_true', help=\"Request 32G V100 GPUs\")\n    parser.add_argument('--comment', default=\"\", type=str, help=\"Comment to pass to scheduler\")",
+        "detail": "submitit_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "get_shared_folder",
+        "kind": 2,
+        "importPath": "submitit_pretrain",
+        "description": "submitit_pretrain",
+        "peekOfCode": "def get_shared_folder() -> Path:\n    user = os.getenv(\"USER\")\n    if Path(\"/checkpoint/\").is_dir():\n        p = Path(f\"/checkpoint/{user}/experiments\")\n        p.mkdir(exist_ok=True)\n        return p\n    raise RuntimeError(\"No shared folder available\")\ndef get_init_file():\n    # Init file must not exist, but it's parent dir must exist.\n    os.makedirs(str(get_shared_folder()), exist_ok=True)",
+        "detail": "submitit_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "get_init_file",
+        "kind": 2,
+        "importPath": "submitit_pretrain",
+        "description": "submitit_pretrain",
+        "peekOfCode": "def get_init_file():\n    # Init file must not exist, but it's parent dir must exist.\n    os.makedirs(str(get_shared_folder()), exist_ok=True)\n    init_file = get_shared_folder() / f\"{uuid.uuid4().hex}_init\"\n    if init_file.exists():\n        os.remove(str(init_file))\n    return init_file\nclass Trainer(object):\n    def __init__(self, args):\n        self.args = args",
+        "detail": "submitit_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "submitit_pretrain",
+        "description": "submitit_pretrain",
+        "peekOfCode": "def main():\n    args = parse_args()\n    if args.job_dir == \"\":\n        args.job_dir = get_shared_folder() / \"%j\"\n    # Note that the folder will depend on the job_id, to easily track experiments\n    executor = submitit.AutoExecutor(folder=args.job_dir, slurm_max_num_timeout=30)\n    num_gpus_per_node = args.ngpus\n    nodes = args.nodes\n    timeout_min = args.timeout\n    partition = args.partition",
+        "detail": "submitit_pretrain",
+        "documentation": {}
+    },
+    {
+        "label": "SmoothedValue",
+        "kind": 6,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "class SmoothedValue(object):\n    \"\"\"Track a series of values and provide access to smoothed values over a\n    window or the global series average.\n    \"\"\"\n    def __init__(self, window_size=20, fmt=None):\n        if fmt is None:\n            fmt = \"{median:.4f} ({global_avg:.4f})\"\n        self.deque = deque(maxlen=window_size)\n        self.total = 0.0\n        self.count = 0",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "MetricLogger",
+        "kind": 6,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "class MetricLogger(object):\n    def __init__(self, delimiter=\"\\t\"):\n        self.meters = defaultdict(SmoothedValue)\n        self.delimiter = delimiter\n    def update(self, **kwargs):\n        for k, v in kwargs.items():\n            if v is None:\n                continue\n            if isinstance(v, torch.Tensor):\n                v = v.item()",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "TensorboardLogger",
+        "kind": 6,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "class TensorboardLogger(object):\n    def __init__(self, log_dir):\n        self.writer = SummaryWriter(logdir=log_dir)\n        self.step = 0\n    def set_step(self, step=None):\n        if step is not None:\n            self.step = step\n        else:\n            self.step += 1\n    def update(self, head='scalar', step=None, **kwargs):",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "WandbLogger",
+        "kind": 6,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "class WandbLogger(object):\n    def __init__(self, args):\n        self.args = args\n        try:\n            import wandb\n            self._wandb = wandb\n        except ImportError:\n            raise ImportError(\n                \"To use the Weights and Biases Logger please install wandb.\"\n                \"Run `pip install wandb` to install it.\"",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "NativeScalerWithGradNormCount",
+        "kind": 6,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "class NativeScalerWithGradNormCount:\n    state_dict_key = \"amp_scaler\"\n    def __init__(self):\n        self._scaler = torch.cuda.amp.GradScaler()\n    def __call__(self, loss, optimizer, clip_grad=None, parameters=None, create_graph=False, update_grad=True):\n        self._scaler.scale(loss).backward(create_graph=create_graph)\n        if update_grad:\n            if clip_grad is not None:\n                assert parameters is not None\n                self._scaler.unscale_(optimizer)  # unscale the gradients of optimizer's assigned params in-place",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "str2bool",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def str2bool(v):\n    \"\"\"\n    Converts string to bool type; enables command line \n    arguments in the format of '--arg1 true --arg2 false'\n    \"\"\"\n    if isinstance(v, bool):\n        return v\n    if v.lower() in ('yes', 'true', 't', 'y', '1'):\n        return True\n    elif v.lower() in ('no', 'false', 'f', 'n', '0'):",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "setup_for_distributed",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def setup_for_distributed(is_master):\n    \"\"\"\n    This function disables printing when not in master process\n    \"\"\"\n    import builtins as __builtin__\n    builtin_print = __builtin__.print\n    def print(*args, **kwargs):\n        force = kwargs.pop('force', False)\n        if is_master or force:\n            builtin_print(*args, **kwargs)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_dist_avail_and_initialized",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def is_dist_avail_and_initialized():\n    if not dist.is_available():\n        return False\n    if not dist.is_initialized():\n        return False\n    return True\ndef get_world_size():\n    if not is_dist_avail_and_initialized():\n        return 1\n    return dist.get_world_size()",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_world_size",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_world_size():\n    if not is_dist_avail_and_initialized():\n        return 1\n    return dist.get_world_size()\ndef get_rank():\n    if not is_dist_avail_and_initialized():\n        return 0\n    return dist.get_rank()\ndef is_main_process():\n    return get_rank() == 0",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_rank",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_rank():\n    if not is_dist_avail_and_initialized():\n        return 0\n    return dist.get_rank()\ndef is_main_process():\n    return get_rank() == 0\ndef save_on_master(*args, **kwargs):\n    if is_main_process():\n        torch.save(*args, **kwargs)\ndef init_distributed_mode(args):",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_main_process",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def is_main_process():\n    return get_rank() == 0\ndef save_on_master(*args, **kwargs):\n    if is_main_process():\n        torch.save(*args, **kwargs)\ndef init_distributed_mode(args):\n    if args.dist_on_itp:\n        args.rank = int(os.environ['OMPI_COMM_WORLD_RANK'])\n        args.world_size = int(os.environ['OMPI_COMM_WORLD_SIZE'])\n        args.gpu = int(os.environ['OMPI_COMM_WORLD_LOCAL_RANK'])",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "save_on_master",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def save_on_master(*args, **kwargs):\n    if is_main_process():\n        torch.save(*args, **kwargs)\ndef init_distributed_mode(args):\n    if args.dist_on_itp:\n        args.rank = int(os.environ['OMPI_COMM_WORLD_RANK'])\n        args.world_size = int(os.environ['OMPI_COMM_WORLD_SIZE'])\n        args.gpu = int(os.environ['OMPI_COMM_WORLD_LOCAL_RANK'])\n        args.dist_url = \"tcp://%s:%s\" % (os.environ['MASTER_ADDR'], os.environ['MASTER_PORT'])\n        os.environ['LOCAL_RANK'] = str(args.gpu)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "init_distributed_mode",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def init_distributed_mode(args):\n    if args.dist_on_itp:\n        args.rank = int(os.environ['OMPI_COMM_WORLD_RANK'])\n        args.world_size = int(os.environ['OMPI_COMM_WORLD_SIZE'])\n        args.gpu = int(os.environ['OMPI_COMM_WORLD_LOCAL_RANK'])\n        args.dist_url = \"tcp://%s:%s\" % (os.environ['MASTER_ADDR'], os.environ['MASTER_PORT'])\n        os.environ['LOCAL_RANK'] = str(args.gpu)\n        os.environ['RANK'] = str(args.rank)\n        os.environ['WORLD_SIZE'] = str(args.world_size)\n        # [\"RANK\", \"WORLD_SIZE\", \"MASTER_ADDR\", \"MASTER_PORT\", \"LOCAL_RANK\"]",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "all_reduce_mean",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def all_reduce_mean(x):\n    world_size = get_world_size()\n    if world_size > 1:\n        x_reduce = torch.tensor(x).cuda()\n        dist.all_reduce(x_reduce)\n        x_reduce /= world_size\n        return x_reduce.item()\n    else:\n        return x\ndef load_state_dict(model, state_dict, prefix='', ignore_missing=\"relative_position_index\"):",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_state_dict",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def load_state_dict(model, state_dict, prefix='', ignore_missing=\"relative_position_index\"):\n    missing_keys = []\n    unexpected_keys = []\n    error_msgs = []\n    # copy state_dict so _load_from_state_dict can modify it\n    metadata = getattr(state_dict, '_metadata', None)\n    state_dict = state_dict.copy()\n    if metadata is not None:\n        state_dict._metadata = metadata\n    def load(module, prefix=''):",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_grad_norm_",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_grad_norm_(parameters, norm_type: float = 2.0) -> torch.Tensor:\n    if isinstance(parameters, torch.Tensor):\n        parameters = [parameters]\n    parameters = [p for p in parameters if p.grad is not None]\n    norm_type = float(norm_type)\n    if len(parameters) == 0:\n        return torch.tensor(0.)\n    device = parameters[0].grad.device\n    if norm_type == inf:\n        total_norm = max(p.grad.detach().abs().max().to(device) for p in parameters)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "save_model",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def save_model(args, epoch, model, model_without_ddp, optimizer, loss_scaler, model_ema=None):\n    output_dir = Path(args.output_dir)\n    epoch_name = str(epoch)\n    checkpoint_paths = [output_dir / ('checkpoint-%s.pth' % epoch_name)]\n    for checkpoint_path in checkpoint_paths:\n        to_save = {\n            'model': model_without_ddp.state_dict(),\n            'optimizer': optimizer.state_dict(),\n            'epoch': epoch,\n            'scaler': loss_scaler.state_dict(),",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "auto_load_model",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def auto_load_model(args, model, model_without_ddp, optimizer, loss_scaler, model_ema=None):\n    output_dir = Path(args.output_dir)\n    if args.auto_resume and len(args.resume) == 0:\n        import glob\n        all_checkpoints = glob.glob(os.path.join(output_dir, 'checkpoint-*.pth'))\n        latest_ckpt = -1\n        for ckpt in all_checkpoints:\n            t = ckpt.split('-')[-1].split('.')[0]\n            if t.isdigit():\n                latest_ckpt = max(int(t), latest_ckpt)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_scheduler",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def cosine_scheduler(base_value, final_value, epochs, niter_per_ep, warmup_epochs=0,\n                     start_warmup_value=0, warmup_steps=-1):\n    warmup_schedule = np.array([])\n    warmup_iters = warmup_epochs * niter_per_ep\n    if warmup_steps > 0:\n        warmup_iters = warmup_steps\n    print(\"Set warmup steps = %d\" % warmup_iters)\n    if warmup_epochs > 0:\n        warmup_schedule = np.linspace(start_warmup_value, base_value, warmup_iters)\n    iters = np.arange(epochs * niter_per_ep - warmup_iters)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "adjust_learning_rate",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def adjust_learning_rate(optimizer, epoch, args):\n    \"\"\"Decay the learning rate with half-cycle cosine after warmup\"\"\"\n    if epoch < args.warmup_epochs:\n        lr = args.lr * epoch / args.warmup_epochs \n    else:\n        lr = args.min_lr + (args.lr - args.min_lr) * 0.5 * \\\n            (1. + math.cos(math.pi * (epoch - args.warmup_epochs) / (args.epochs - args.warmup_epochs)))\n    for param_group in optimizer.param_groups:\n        if \"lr_scale\" in param_group:\n            param_group[\"lr\"] = lr * param_group[\"lr_scale\"]",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "remap_checkpoint_keys",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def remap_checkpoint_keys(ckpt):\n    new_ckpt = OrderedDict()\n    for k, v in ckpt.items():\n        if k.startswith('encoder'):\n            k = '.'.join(k.split('.')[1:]) # remove encoder in the name\n        if k.endswith('kernel'):\n            k = '.'.join(k.split('.')[:-1]) # remove kernel in the name\n            new_k = k + '.weight'\n            if len(v.shape) == 3: # resahpe standard convolution\n                kv, in_dim, out_dim = v.shape",
+        "detail": "utils",
+        "documentation": {}
+    }
+]

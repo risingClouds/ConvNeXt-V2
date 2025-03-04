@@ -8,23 +8,9 @@
 
 import torch
 import torch.nn as nn
-from timm.models.layers import trunc_normal_
+from timm.models.layers import trunc_normal_, DropPath
+from .utils import LayerNorm, GRN
 
-from .utils import (
-    LayerNorm,
-    MinkowskiLayerNorm,
-    MinkowskiGRN,
-    MinkowskiDropPath
-)
-from MinkowskiEngine import (
-    MinkowskiConvolution,
-    MinkowskiDepthwiseConvolution,
-    MinkowskiLinear,
-    MinkowskiGELU
-)
-from MinkowskiOps import (
-    to_sparse,
-)
 
 class Block(nn.Module):
     """ Sparse ConvNeXtV2 Block. 
@@ -36,22 +22,28 @@ class Block(nn.Module):
     """
     def __init__(self, dim, drop_path=0., D=3):
         super().__init__()
-        self.dwconv = MinkowskiDepthwiseConvolution(dim, kernel_size=7, bias=True, dimension=D)
-        self.norm = MinkowskiLayerNorm(dim, 1e-6)
-        self.pwconv1 = MinkowskiLinear(dim, 4 * dim)   
-        self.act = MinkowskiGELU()
-        self.pwconv2 = MinkowskiLinear(4 * dim, dim)
-        self.grn = MinkowskiGRN(4  * dim)
-        self.drop_path = MinkowskiDropPath(drop_path)
+        self.dwconv = nn.Conv2d(dim, dim, kernel_size=7, padding=3, groups=dim) # depthwise conv
+        self.norm = LayerNorm(dim, eps=1e-6,data_format="channels_last")
+        self.pwconv1 = nn.Linear(dim, 4 * dim) # pointwise/1x1 convs, implemented with linear layers
+        self.act = nn.GELU()
+        self.grn = GRN(4 * dim)
+        self.pwconv2 = nn.Linear(4 * dim, dim)
+        self.drop_path = DropPath(drop_path) if drop_path > 0. else nn.Identity()
     
-    def forward(self, x):
+    def forward(self, x,mask=None):
         input = x
+        if mask is not None:
+            x = x * (1.-mask)
         x = self.dwconv(x)
+        if mask is not None:
+            x = x * (1.-mask)
+        x = x.permute(0,2,3,1)
         x = self.norm(x)
         x = self.pwconv1(x)
         x = self.act(x)
-        x = self.grn(x)
+        x = self.grn(x,mask)
         x = self.pwconv2(x)
+        x = x.permute(0,3,1,2)
         x = input + self.drop_path(x)
         return x
 
@@ -84,8 +76,8 @@ class SparseConvNeXtV2(nn.Module):
         self.downsample_layers.append(stem)
         for i in range(3):
             downsample_layer = nn.Sequential(
-                MinkowskiLayerNorm(dims[i], eps=1e-6),
-                MinkowskiConvolution(dims[i], dims[i+1], kernel_size=2, stride=2, bias=True, dimension=D)
+                LayerNorm(dims[i], eps=1e-6,data_format="channels_first"),
+                nn.Conv2d(dims[i], dims[i+1], kernel_size=2, stride=2, bias=True)
             )
             self.downsample_layers.append(downsample_layer)
         
@@ -102,15 +94,9 @@ class SparseConvNeXtV2(nn.Module):
         self.apply(self._init_weights)
         
     def _init_weights(self, m):
-        if isinstance(m, MinkowskiConvolution):
-            trunc_normal_(m.kernel, std=.02)
+        if isinstance(m, (nn.Conv2d, nn.Linear)):
+            trunc_normal_(m.weight, std=.02)
             nn.init.constant_(m.bias, 0)
-        if isinstance(m, MinkowskiDepthwiseConvolution):
-            trunc_normal_(m.kernel, std=.02)
-            nn.init.constant_(m.bias, 0)
-        if isinstance(m, MinkowskiLinear):
-            trunc_normal_(m.linear.weight, std=.02)
-            nn.init.constant_(m.linear.bias, 0)
 
     def upsample_mask(self, mask, scale):
         assert len(mask.shape) == 2
@@ -129,11 +115,9 @@ class SparseConvNeXtV2(nn.Module):
         x *= (1.-mask)
         
         # sparse encoding
-        x = to_sparse(x)
         for i in range(4):
             x = self.downsample_layers[i](x) if i > 0 else x
             x = self.stages[i](x)
         
         # densify
-        x = x.dense()[0]
         return x
